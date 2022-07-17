@@ -4626,6 +4626,11 @@
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
           </Trigger>
+          <Trigger Enabled="true" Name="Reset fail safe" Id="95e6c3f3-3d99-4ef8-a852-6da51c889997" RegularExpression="^[^ ]* [^ ]* 14.{9}:Living Liquid:4826">
+            <Actions />
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
         </Triggers>
       </Folder>
       <Folder Id="79dc760c-d2ef-4f44-b56c-0dfc24dc2780" Name="Don't use" Enabled="false">
