@@ -71,10 +71,6 @@
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
                   </Trigger>
-                  <Trigger Enabled="true" IsReadme="True" Name="ReadMeV1.02" Id="6cd23fa9-199b-441d-b1a4-893497adf765" RegularExpression="https://github.com/KingPendragoon/NaelLightningAutoMarker" Description="https://github.com/KingPendragoon/NaelLightningAutoMarker">
-                    <Actions />
-                    <Condition Enabled="false" Grouping="Or" />
-                  </Trigger>
                 </Triggers>
               </Folder>
               <Folder Id="0eb51278-e550-4091-b376-5c2db9d07f19" Name="TenStrikeAutoMarker" Enabled="false">
@@ -832,10 +828,6 @@
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
                   </Trigger>
-                  <Trigger Enabled="true" IsReadme="True" Name="$$ReadMeV1.05" Id="818d5036-98e5-4935-abb5-5a0336770e76" RegularExpression="https://github.com/KingPendragoon/TenStrikeAutoMarker/blob/main/README.md" Description="https://github.com/KingPendragoon/TenStrikeAutoMarker/blob/main/README.md">
-                    <Actions />
-                    <Condition Enabled="false" Grouping="Or" />
-                  </Trigger>
                   <Trigger Enabled="true" Sequential="True" Name="Pref2Fix" Id="f6aa5463-3506-4ba5-a19f-c8f647992783" RegularExpression="">
                     <Actions>
                       <Action OrderNumber="1" VariableName="MarkPlayer1" ActionType="Variable" Asynchronous="False" Description="Check to see if between Marker 1 and Marker 2 if the Player Prefers 2 as their number 1 priority">
@@ -1346,10 +1338,6 @@
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
                   </Trigger>
-                  <Trigger Enabled="true" IsReadme="True" Name="ReadMeV1,01" Id="02734052-5c87-4850-8359-f1add8d9437a" RegularExpression="https://github.com/KingPendragoon/GrandOctetAM" Description="https://github.com/KingPendragoon/GrandOctetAM">
-                    <Actions />
-                    <Condition Enabled="false" Grouping="Or" />
-                  </Trigger>
                   <Trigger Enabled="true" Source="FFXIVNetwork" Name="GrandOctetReset" Id="4a1382fc-8b63-452d-826b-e7bac2372ce2" RegularExpression="^33\|[^|]*\|[^|]*\|400000(?&gt;03|10)\|">
                     <Actions>
                       <Action OrderNumber="1" VariableName="GrandOctetBool" ActionType="Variable">
@@ -1763,10 +1751,6 @@
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                     </Actions>
-                    <Condition Enabled="false" Grouping="Or" />
-                  </Trigger>
-                  <Trigger Enabled="true" Source="FFXIVNetwork" IsReadme="True" Name="$ReadMe$V1.05" Id="bc3a907f-12f6-458c-ba0d-430bf3f11b63" RegularExpression="" Description="Set up to use Keyattacks Macros F1-F9.  Same set up as the uwu Gaol triggers">
-                    <Actions />
                     <Condition Enabled="false" Grouping="Or" />
                   </Trigger>
                   <Trigger Enabled="true" Source="FFXIVNetwork" Sequential="True" Name="Mark1" Id="29be6c85-1254-496d-8130-255ac7ccf232" RegularExpression="">
@@ -2254,10 +2238,6 @@
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                     </Actions>
-                    <Condition Enabled="false" Grouping="Or" />
-                  </Trigger>
-                  <Trigger Enabled="true" Source="FFXIVNetwork" IsReadme="True" Name="$ReadMe$V1.05" Id="e823d092-4490-4231-92a4-12dea80a1f69" RegularExpression="" Description="Set up to use Keyattacks Macros F1-F9.  Same set up as the uwu Gaol triggers">
-                    <Actions />
                     <Condition Enabled="false" Grouping="Or" />
                   </Trigger>
                   <Trigger Enabled="true" Source="FFXIVNetwork" Sequential="True" Name="Mark1" Id="427ff890-36b6-4ee6-8b8c-ad5bfa66ac3e" RegularExpression="">
@@ -2757,10 +2737,6 @@
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                     </Actions>
-                    <Condition Enabled="false" Grouping="Or" />
-                  </Trigger>
-                  <Trigger Enabled="true" Source="FFXIVNetwork" Name="$ReadMeV1.02$" Id="e4e45049-7315-4721-84ff-8b1fff562b1f" RegularExpression="https://github.com/KingPendragoon/StackingFlameAM/blob/main/README.md" Description="This utilizes Telesto To mark players and thus needs that.  For instructions on how to install telesto.&#xD;&#xA;https://github.com/paissaheavyindustries/Dalamud-Repo">
-                    <Actions />
                     <Condition Enabled="false" Grouping="Or" />
                   </Trigger>
                   <Trigger Enabled="true" Source="FFXIVNetwork" Sequential="True" Name="Telesto GetPartyMembers" Id="194030c6-82fd-4348-ad57-f73c9ae20d36" RegularExpression="^20\|[^|]*\|[^|]*\|[^|]*\|6D45">
@@ -5602,11 +5578,6 @@
                         </Condition>
                       </Action>
                     </Actions>
-                    <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
-                  </Trigger>
-                  <Trigger Enabled="true" Source="FFXIVNetwork" Sequential="True" IsReadme="True" Name="##INSTRUCTIONS - see description tab" Id="36a927c9-5627-4bdf-96f4-0d74434117f5" RegularExpression="" Description="If you wish to customize the priority, copy the folder labeled &quot;copy to local&quot; to your local triggers.&#xD;&#xA;Make sure the local copy is enabled, and the remote copy of the folder is disabled.&#xD;&#xA;If you are happy with the default prio, you can enable it in remote without copying it.&#xD;&#xA;&#xD;&#xA;Telesto is *required* for these triggers, to build the party list and to send the mark commands to the game.&#xD;&#xA;You can use &quot;/e _reset&quot; to manually trigger telesto to rebuild the party list.&#xD;&#xA;https://github.com/paissaheavyindustries/Telesto&#xD;&#xA;&#xD;&#xA;To customize priority, change the order that party members are pushed to the party list in the Priority trigger in your local folder.&#xD;&#xA;The default priority assumes the in game party list is in this order: DTTHHDDD, and prioritizes healers getting mechanics/far baits and tanks getting near baits.&#xD;&#xA;&#xD;&#xA;In Delta, only the near/distant world players are marked.&#xD;&#xA;Players with near and distant world will be marked with cross/plus (distant) and triangle (near). Since these are randomly assigned, all players must be able to do these.&#xD;&#xA;Players close to the top of the list will have higher priority to be assigned the mechanic positions in Sigma and Omega (fist &amp; monitor baits and tethers).&#xD;&#xA;The two players at the top of the list will never get near baits, and the two players at the end of the list will never get far baits.&#xD;&#xA;Near bait assignments are done with chain 2 going on the 2nd to last person, and chain 1 going on the last person in the list, so it's best to place main tank at the bottom of the list&#xD;&#xA;to ensure that they will not get deleted by an auto after Sigma due to magic vuln.&#xD;&#xA;If you only want auto markers for specific trios, disable the triggers labeled with the one you do not want.&#xD;&#xA;However, DO NOT disable the Dynamis trigger, as this is required for both the sigma and omega trios to mark properly.&#xD;&#xA;&#xD;&#xA;Suggested cheatsheet images:&#xD;&#xA;  Sigma - attack1 &amp; 2 and ignore 1 always go to the female, everyone else go across from the female.&#xD;&#xA;     All south players follow the rotating line to get to their spot (if it's CW, near baits on west side, if it's CCW, east side)&#xD;&#xA;     https://cdn.discordapp.com/attachments/1070072195394568283/1074408080609116381/image.png&#xD;&#xA;    https://cdn.discordapp.com/attachments/1070072195394568283/1074408081074700428/image.png&#xD;&#xA;  Omega - treat the monitor side and beetle as north, and you can resolve both of these in the same manner, just be careful to not get clipped by the monitor.&#xD;&#xA;    https://media.discordapp.net/attachments/1074847295012610059/1075330351242694696/image.png&#xD;&#xA;    https://media.discordapp.net/attachments/1074847295012610059/1075330351553060895/image.png&#xD;&#xA;&#xD;&#xA;Test triggers are included to verify base functionality.&#xD;&#xA;To test, you can go into an instance of with a party of 8. Use the &quot;/e _reset&quot; command to force telesto to update the party list.&#xD;&#xA;Then, use one of the following commands in game:&#xD;&#xA;/e _test delta&#xD;&#xA;/e _test sigma&#xD;&#xA;/e _test omega&#xD;&#xA;Please note that the omega test trigger will simulate both the monitor and the tether variation of the mechanic, so it will take about&#xD;&#xA;50 seconds to complete. It also will take about 8 seconds to do the first marks, so be patient.">
-                    <Actions />
                     <Condition Enabled="false" Grouping="Or" />
                     <Conditions />
                   </Trigger>
